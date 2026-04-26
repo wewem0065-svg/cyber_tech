@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Tech - Teknolojia na Cybersecurity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">
+            <i class="fas fa-shield-alt"></i>
+            <h1>CYBER TECH</h1>
+        </div>
+        <div class="header-search">
+            <input type="text" id="searchInput" class="search-input" placeholder="Tafuta...">
+            <i class="fas fa-search"></i>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+        <div class="content">
+            <!-- HOME SECTION -->
+            <section id="home" class="section active">
+                <div class="welcome-banner">
+                    <h2>🌟 Karibu kwenye Cyber Tech</h2>
+                    <p>Teknolojia ya Kisasa, Apps na Cybersecurity Tips</p>
+                </div>
+
+                <div class="featured-section">
+                    <h3 class="section-title"><i class="fas fa-fire"></i> Featured</h3>
+                    <div class="cards-grid">
+                        <div class="glow-card card">
+                            <div class="card-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <h3>Apps Mbalimbali</h3>
+                            <p>Tafuta apps za Android, iOS, na Web</p>
+                            <a href="#" class="card-link nav-trigger" data-section="apps">Soma Zaidi →</a>
+                        </div>
+                        <div class="glow-card card">
+                            <div class="card-icon"><i class="fas fa-tools"></i></div>
+                            <h3>Tools Online</h3>
+                            <p>Zana za kukamatia, HTML, JSON, na zaidi</p>
+                            <a href="#" class="card-link nav-trigger" data-section="tools">Soma Zaidi →</a>
+                        </div>
+                        <div class="glow-card card">
+                            <div class="card-icon"><i class="fas fa-newspaper"></i></div>
+                            <h3>Habari na Tips</h3>
+                            <p>Kupata habari za teknolojia na cybersecurity</p>
+                            <a href="#" class="card-link nav-trigger" data-section="news">Soma Zaidi →</a>
+                        </div>
+                        <div class="glow-card card">
+                            <div class="card-icon"><i class="fas fa-lock"></i></div>
+                            <h3>Cybersecurity</h3>
+                            <p>Tips za kuaslinda data yako online</p>
+                            <a href="#" class="card-link" onclick="alert('Habari za cybersecurity inakuja soon!')">Soma Zaidi →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- NEWS SECTION -->
+            <section id="news" class="section">
+                <h2 class="section-title"><i class="fas fa-newspaper"></i> Habari na Tips</h2>
+                <div class="news-list">
+                    <div class="glow-card news-card">
+                        <div class="news-header">
+                            <span class="news-date">26 Apr 2026</span>
+                            <span class="news-category">Security</span>
+                        </div>
+                        <h3>Jinsi ya Kulinda Password Yako</h3>
+                        <p>Jifunze jinsi ya kuunda passwords kali na kusilinda data yako ya online kwa usalama mkubwa.</p>
+                        <div class="news-meta">
+                            <span><i class="fas fa-eye"></i> 245 Views</span>
+                            <span><i class="fas fa-comment"></i> 12 Comments</span>
+                        </div>
+                    </div>
+
+                    <div class="glow-card news-card">
+                        <div class="news-header">
+                            <span class="news-date">24 Apr 2026</span>
+                            <span class="news-category">Tips</span>
+                        </div>
+                        <h3>Apps 10 Muhimu kwa Simu Yako</h3>
+                        <p>Tafuta apps 10 zinazofaa na zinazosaidia machifu ya kila siku kwa efficiency.</p>
+                        <div class="news-meta">
+                            <span><i class="fas fa-eye"></i> 532 Views</span>
+                            <span><i class="fas fa-comment"></i> 28 Comments</span>
+                        </div>
+                    </div>
+
+                    <div class="glow-card news-card">
+                        <div class="news-header">
+                            <span class="news-date">22 Apr 2026</span>
+                            <span class="news-category">Technology</span>
+                        </div>
+                        <h3>AI na Machine Learning 2026</h3>
+                        <p>Teknolojia mpya ya AI inabadilisha ulimwengu. Jifunze kuhusu trends mpya.</p>
+                        <div class="news-meta">
+                            <span><i class="fas fa-eye"></i> 892 Views</span>
+                            <span><i class="fas fa-comment"></i> 45 Comments</span>
+                        </div>
+                    </div>
+
+                    <div class="glow-card news-card">
+                        <div class="news-header">
+                            <span class="news-date">20 Apr 2026</span>
+                            <span class="news-category">Apps</span>
+                        </div>
+                        <h3>Chrome Extensions Za Kazi</h3>
+                        <p>Tafuta extensions za Chrome zinazofanya kazi yako ya online kuwa haraka na rahisi.</p>
+                        <div class="news-meta">
+                            <span><i class="fas fa-eye"></i> 456 Views</span>
+                            <span><i class="fas fa-comment"></i> 18 Comments</span>
+                        </div>
+                    </div>
+
+                    <div class="glow-card news-card">
+                        <div class="news-header">
+                            <span class="news-date">18 Apr 2026</span>
+                            <span class="news-category">Security</span>
+                        </div>
+                        <h3>VPN - Unajifanya Na Nini?</h3>
+                        <p>Jifunze jinsi VPN inavyofanya kazi na kwa nini unahitaji kuwa na VPN.</p>
+                        <div class="news-meta">
+                            <span><i class="fas fa-eye"></i> 678 Views</span>
+                            <span><i class="fas fa-comment"></i> 32 Comments</span>
+                        </div>
+                    </div>
+
+                    <div class="glow-card news-card">
+                        <div class="news-header">
+                            <span class="news-date">16 Apr 2026</span>
+                            <span class="news-category">Tips</span>
+                        </div>
+                        <h3>Jinsi ya Kufanya Website</h3>
+                        <p>Jifunze HTML, CSS, JavaScript na kutengeneza website yako mwenyewe.</p>
+                        <div class="news-meta">
+                            <span><i class="fas fa-eye"></i> 1.2K Views</span>
+                            <span><i class="fas fa-comment"></i> 67 Comments</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- APPS SECTION -->
+            <section id="apps" class="section">
+                <h2 class="section-title"><i class="fas fa-mobile-alt"></i> Apps Mbalimbali</h2>
+                <div class="apps-grid">
+                    <div class="glow-card app-card">
+                        <div class="app-icon"><i class="fab fa-telegram"></i></div>
+                        <h3>Telegram</h3>
+                        <p class="app-category">Messaging</p>
+                        <p>App ya ujumbe rahisi na secure, na channels za kila kitu.</p>
+                        <div class="app-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <a href="https://telegram.org" target="_blank" class="btn-download">Download</a>
+                    </div>
+
+                    <div class="glow-card app-card">
+                        <div class="app-icon"><i class="fab fa-chrome"></i></div>
+                        <h3>Google Chrome</h3>
+                        <p class="app-category">Browser</p>
+                        <p>Browser ya haraka na salama na sinkronizesheni kamili.</p>
+                        <div class="app-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <a href="https://google.com/chrome" target="_blank" class="btn-download">Download</a>
+                    </div>
+
+                    <div class="glow-card app-card">
+                        <div class="app-icon"><i class="fab fa-github"></i></div>
+                        <h3>GitHub</h3>
+                        <p class="app-category">Development</p>
+                        <p>Platform ya code, control, na collaborate kwa developer.</p>
+                        <div class="app-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.7)</span>
+                        </div>
+                        <a href="https://github.com" target="_blank" class="btn-download">Download</a>
+                    </div>
+
+                    <div class="glow-card app-card">
+                        <div class="app-icon"><i class="fas fa-code"></i></div>
+                        <h3>VS Code</h3>
+                        <p class="app-category">Editor</p>
+                        <p>Editor ya code kwa programer wote, na extensions nyingi.</p>
+                        <div class="app-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <a href="https://code.visualstudio.com" target="_blank" class="btn-download">Download</a>
+                    </div>
+
+                    <div class="glow-card app-card">
+                        <div class="app-icon"><i class="fab fa-figma"></i></div>
+                        <h3>Figma</h3>
+                        <p class="app-category">Design</p>
+                        <p>App ya design na collaboration, kwa UI/UX designer.</p>
+                        <div class="app-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <a href="https://figma.com" target="_blank" class="btn-download">Download</a>
+                    </div>
+
+                    <div class="glow-card app-card">
+                        <div class="app-icon"><i class="fas fa-shield-alt"></i></div>
+                        <h3>ProtonVPN</h3>
+                        <p class="app-category">Security</p>
+                        <p>VPN app ya kulia na kusilinda privacy yako online.</p>
+                        <div class="app-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(4.6)</span>
+                        </div>
+                        <a href="https://protonvpn.com" target="_blank" class="btn-download">Download</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TOOLS SECTION -->
+            <section id="tools" class="section">
+                <h2 class="section-title"><i class="fas fa-tools"></i> Tools Online</h2>
+                <div class="tools-grid">
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-image"></i></div>
+                        <h3>Image Compressor</h3>
+                        <p>Compress picha zako bila kupoteza quality.</p>
+                        <a href="https://compressor.io" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-code"></i></div>
+                        <h3>JSON Formatter</h3>
+                        <p>Format na validate JSON code yako.</p>
+                        <a href="https://jsonformatter.org" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-palette"></i></div>
+                        <h3>Color Picker</h3>
+                        <p>Tafuta na generate rangi za CSS.</p>
+                        <a href="https://htmlcolorcodes.com" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-lock"></i></div>
+                        <h3>Password Generator</h3>
+                        <p>Tengeneza passwords kali na salama.</p>
+                        <a href="https://passwordsgenerator.net" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-file"></i></div>
+                        <h3>PDF Converter</h3>
+                        <p>Convert picha na files to PDF.</p>
+                        <a href="https://ilovepdf.com" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-link"></i></div>
+                        <h3>URL Shortener</h3>
+                        <p>Fukamatia links za muda mrefu.</p>
+                        <a href="https://bit.ly" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-hashtag"></i></div>
+                        <h3>Hash Generator</h3>
+                        <p>Tengeneza MD5, SHA1, SHA256 hashes.</p>
+                        <a href="https://www.md5hashgenerator.com" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+
+                    <div class="glow-card tool-card">
+                        <div class="tool-icon"><i class="fas fa-video"></i></div>
+                        <h3>Video Downloader</h3>
+                        <p>Download video from YouTube na sites.</p>
+                        <a href="https://y2mate.com" target="_blank" class="tool-link">Tumia →</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PROFILE SECTION -->
+            <section id="profile" class="section">
+                <h2 class="section-title"><i class="fas fa-user-circle"></i> Profile</h2>
+                <div class="profile-container">
+                    <div class="glow-card profile-card">
+                        <div class="profile-avatar">
+                            <i class="fas fa-user-shield"></i>
+                        </div>
+                        <h2>Cyber Tech Admin</h2>
+                        <p class="profile-status">🟢 Online</p>
+                        
+                        <div class="profile-stats">
+                            <div class="stat">
+                                <span class="stat-value">2.5K</span>
+                                <p>Followers</p>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">156</span>
+                                <p>Posts</p>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-value">892</span>
+                                <p>Likes</p>
+                            </div>
+                        </div>
+
+                        <div class="profile-actions">
+                            <button class="btn-primary" onclick="document.getElementById('contactModal').classList.add('show')">Contact</button>
+                            <button class="btn-secondary">Follow</button>
+                        </div>
+                    </div>
+
+                    <div class="profile-details glow-card">
+                        <h3>Taarifa</h3>
+                        
+                        <div class="detail-item">
+                            <label>Email</label>
+                            <p>wewem0065@gmail.com</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>WhatsApp</label>
+                            <p>+255 611 378 027</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>Location</label>
+                            <p>Tanzania 🇹🇿</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>About</label>
+                            <p>Kuzaliwa kwa teknolojia, cybersecurity, na kutunga aplikations. Ni mfunzi wa kusambaza maarifa ya tech.</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>Skills</label>
+                            <p>HTML, CSS, JavaScript, React, Node.js, Cybersecurity, Python</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- FLOATING CONTACT BUTTON -->
+    <button class="floating-contact" onclick="document.getElementById('contactModal').classList.add('show')" title="Contact Us">
+        <i class="fas fa-envelope"></i>
+    </button>
+
+    <!-- CONTACT MODAL -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('contactModal').classList.remove('show')">&times;</span>
+            <h2>Wasiliana Nasi</h2>
+            <div class="contact-options">
+                <a href="https://wa.me/255611378027?text=Habari%20Cyber%20Tech!" target="_blank" class="contact-btn whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                    <p>+255 611 378 027</p>
+                </a>
+                <a href="https://t.me/cybertechtz" target="_blank" class="contact-btn telegram">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram</span>
+                    <p>@cybertechtz</p>
+                </a>
+                <a href="mailto:wewem0065@gmail.com" class="contact-btn email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                    <p>wewem0065@gmail.com</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM NAVIGATION -->
+    <nav class="bottom-nav">
+        <a class="nav-item active" data-section="home" onclick="showSection('home')">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a class="nav-item" data-section="news" onclick="showSection('news')">
+            <i class="fas fa-newspaper"></i>
+            <span>News</span>
+        </a>
+        <a class="nav-item" data-section="apps" onclick="showSection('apps')">
+            <i class="fas fa-mobile-alt"></i>
+            <span>Apps</span>
+        </a>
+        <a class="nav-item" data-section="tools" onclick="showSection('tools')">
+            <i class="fas fa-tools"></i>
+            <span>Tools</span>
+        </a>
+        <a class="nav-item" data-section="profile" onclick="showSection('profile')">
+            <i class="fas fa-user"></i>
+            <span>Profile</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>

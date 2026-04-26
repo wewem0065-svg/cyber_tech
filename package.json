@@ -1,0 +1,25 @@
+{
+  "name": "cyber-tech",
+  "version": "1.0.0",
+  "description": "Dark neon website for technology, apps, tools, and cybersecurity tips",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html"
+  },
+  "keywords": [
+    "cyber-tech",
+    "technology",
+    "apps",
+    "tools",
+    "cybersecurity",
+    "dark-neon",
+    "responsive-design"
+  ],
+  "author": "wewem0065-svg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wewem0065-svg/cyber-tech"
+  },
+  "homepage": "https://github.com/wewem0065-svg/cyber-tech#readme"
+}
